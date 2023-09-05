@@ -1,0 +1,26 @@
+.attractions__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.attractions__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.attractions__item {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.attractions__item a {
+  color: #000;
+
+  transition: opacity 0.7s;
+}
+
+.attractions__item a:hover {
+  opacity: 0.7;
+}

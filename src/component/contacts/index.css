@@ -1,0 +1,46 @@
+.contacts__header {
+  display: flex;
+  gap: 20px;
+}
+
+.contacts__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contacts__credentials {
+  display: flex;
+  gap: 14px;
+}
+
+.contacts__credentials-item {
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.contacts__credentials-item:not(:last-child)::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  background-color: #000;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.contacts__avatar {
+  border-radius: 50%;
+}
+
+.contacts__name {
+  font-size: 32px;
+  font-weight: bold;
+}

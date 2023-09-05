@@ -1,0 +1,11 @@
+.details__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.details__services {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

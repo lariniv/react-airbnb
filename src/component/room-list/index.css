@@ -1,0 +1,26 @@
+.room-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.room-list__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card__price {
+  font-weight: bold;
+}
